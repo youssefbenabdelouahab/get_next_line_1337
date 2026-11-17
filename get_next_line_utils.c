@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/14 10:28:35 by yben-abd          #+#    #+#             */
-/*   Updated: 2026/11/17 12:51:14 by marvin           ###   ########.fr       */
+/*   Updated: 2026/11/17 14:29:33 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,9 @@ char	*ft_strjoin(char *s1, char *s2)
 
 	if (!s1 && !s2)
 		return (NULL);
-	else if (!s1 && s2)
+	else if (!s1)
 		return (ft_strdup(s2));
-	else if (s1 && !s2)
+	else if (!s2)
 		return (ft_strdup(s1));
 	len_s1 = ft_strlen(s1);
 	len_s2 = ft_strlen(s2);
@@ -43,10 +43,7 @@ char	*ft_strjoin(char *s1, char *s2)
 		return (NULL);
 	i = 0;
 	while (i < len_s1)
-	{
-		s3[i] = s1[i];
-		i++;
-	}
+		s3[i] = s1[i++];
 	j = 0;
 	while (j < len_s2)
 		s3[i++] = s2[j++];
@@ -72,7 +69,6 @@ char	*ft_substr(char *s, unsigned int start,	size_t len)
 {
 	char	*s1;
 	size_t	i;
-	// size_t	size;
 
 	if (s == NULL)
 		return (NULL);
