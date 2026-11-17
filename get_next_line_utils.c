@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yben-abd <yben-abd@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/14 10:28:35 by yben-abd          #+#    #+#             */
-/*   Updated: 2026/11/16 13:16:42 by yben-abd         ###   ########.fr       */
+/*   Updated: 2026/11/17 12:51:14 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,15 +72,12 @@ char	*ft_substr(char *s, unsigned int start,	size_t len)
 {
 	char	*s1;
 	size_t	i;
-	size_t	size;
+	// size_t	size;
 
 	if (s == NULL)
 		return (NULL);
 	if (start >= ft_strlen(s))
-		return (ft_strdup(""));
-	size = ft_strlen(s);
-	if (size > len)
-		len = size;
+		return (NULL);
 	s1 = malloc(len + 1);
 	if (s1 == NULL)
 		return (NULL);
