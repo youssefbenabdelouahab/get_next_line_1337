@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/14 10:28:35 by yben-abd          #+#    #+#             */
-/*   Updated: 2026/11/17 14:29:33 by marvin           ###   ########.fr       */
+/*   Updated: 2026/11/17 23:22:57 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,9 +41,9 @@ char	*ft_strjoin(char *s1, char *s2)
 	s3 = malloc((len_s1 + len_s2) + 1);
 	if (s3 == NULL)
 		return (NULL);
-	i = 0;
-	while (i < len_s1)
-		s3[i] = s1[i++];
+	i = -1;
+	while (++i < len_s1)
+		s3[i] = s1[i];
 	j = 0;
 	while (j < len_s2)
 		s3[i++] = s2[j++];
