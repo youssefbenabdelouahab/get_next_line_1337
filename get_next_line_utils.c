@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: yben-abd <yben-abd@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/14 10:28:35 by yben-abd          #+#    #+#             */
-/*   Updated: 2026/11/17 23:22:57 by marvin           ###   ########.fr       */
+/*   Updated: 2026/11/18 13:22:57 by yben-abd         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,6 +55,8 @@ int	ft_strchr(char *s)
 {
 	int	i;
 
+	if (!s)
+		return (0);
 	i = 0;
 	while (s[i] != '\0')
 	{
@@ -87,11 +89,11 @@ char	*ft_substr(char *s, unsigned int start,	size_t len)
 	return (s1);
 }
 
-char *ft_strdup(char *s)
+char	*ft_strdup(char *s)
 {
 	char	*dup;
 	int		i;
-	
+
 	if (!s)
 		return (NULL);
 	dup = malloc(ft_strlen(s) + 1);

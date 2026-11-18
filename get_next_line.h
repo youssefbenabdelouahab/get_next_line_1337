@@ -6,7 +6,7 @@
 /*   By: yben-abd <yben-abd@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/14 10:28:58 by yben-abd          #+#    #+#             */
-/*   Updated: 2026/11/16 13:03:24 by yben-abd         ###   ########.fr       */
+/*   Updated: 2026/11/18 14:24:10 by yben-abd         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,10 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include <limits.h>
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 42
+#  define BUFFER_SIZE 1
 # endif
 
 char	*get_next_line(int fd);

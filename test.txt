@@ -1,0 +1,24 @@
+total 92
+drwxr-xr-x 3 yben-abd candidates  4096 Nov 18 12:50 .
+DRWXR-XR-X 9 YBEN-ABD CANDIDATES   145 NOV  9 09:20 ..
+-RWXR-XR-X 1 YBEN-ABD CANDIDATES 16640 NOV 18 12:50 A.OUT
+-rw-r--r-- 1 yben-abd candidates  2378 Nov 18 11:05 get_next_line_bonus.c
+-rw-r--r-- 1 yben-abd candidates  1263 Nov 18 12:25 get_next_line_bonus.h
+-rw-r--r-- 1 yben-abd candidates  2267 Nov 18 12:35 get_next_line.c
+-rw-r--r-- 1 yben-abd candidates  1249 Nov 18 12:49 get_next_line.h
+-rw-r--r-- 1 yben-abd candidates  2150 Nov 18 11:05 get_next_line_utils_bonus.c
+-rw-r--r-- 1 yben-abd candidates  2167 Nov 18 12:22 get_next_line_utils.c
+drwxr-xr-x 8 yben-abd candidates  4096 Nov 18 10:28 .git
+-rwxr-xr-x 1 yben-abd candidates 24992 Nov 18 12:04 gnl
+-rw-r--r-- 1 yben-abd candidates   589 Nov 18 12:49 main.c
+-rw-r--r-- 1 yben-abd candidates  6235 Nov 18 10:28 README.md
+-rw-rw-rw- 1 yben-abd candidates     0 Nov 18 12:57 test.txt
+-RWXR-XR-X 1 YBEN-ABD CANDIDATES 16640 NOV 18 12:50 A.OUT
+-RWXR-XR-X 1 YBEN-ABD CANDIDATES 16640 NOV 18 12:50 A.OUT
+-RWXR-XR-X 1 YBEN-ABD CANDIDATES 16640 NOV 18 12:50 A.OUT
+-RWXR-XR-X 1 YBEN-ABD CANDIDATES 16640 NOV 18 12:50 A.OUT
+-RWXR-XR-X 1 YBEN-ABD CANDIDATES 16640 NOV 18 12:50 A.OUT
+-RWXR-XR-X 1 YBEN-ABD CANDIDATES 16640 NOV 18 12:50 A.OUT
+-RWXR-XR-X 1 YBEN-ABD CANDIDATES 16640 NOV 18 12:50 A.OUT
+-RWXR-XR-X 1 YBEN-ABD CANDIDATES 16640 NOV 18 12:50 A.OUT
+-RWXR-XR-X 1 YBEN-ABD CANDIDATES 16640 NOV 18 12:50 A.OUT

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: yben-abd <yben-abd@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/17 23:02:16 by marvin            #+#    #+#             */
-/*   Updated: 2026/11/17 23:02:16 by marvin           ###   ########.fr       */
+/*   Updated: 2026/11/18 12:05:52 by yben-abd         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,11 +87,11 @@ char	*ft_substr(char *s, unsigned int start,	size_t len)
 	return (s1);
 }
 
-char *ft_strdup(char *s)
+char	*ft_strdup(char *s)
 {
 	char	*dup;
 	int		i;
-	
+
 	if (!s)
 		return (NULL);
 	dup = malloc(ft_strlen(s) + 1);
